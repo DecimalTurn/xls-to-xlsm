@@ -6,7 +6,7 @@ A template repository that converts legacy `.xls` files to macro-enabled `.xlsm`
 
 1. Create a new repo by clicking **`Use this template`** then **`Create a new repository`** in the top-right corner of the screen.
 2. Add the `.xls` files you want to convert to the `input/` folder and commit them.
-3. The workflow will run automatically on every push to `main` that changes files in `input/`. You can also trigger it manually from the **Actions** tab by selecting the **XLS to XLSM** workflow and clicking **Run workflow**.
+3. Run the conversion workflow manually from the **Actions** tab by selecting the **XLS to XLSM** workflow and clicking **Run workflow**.
 
 Once the workflow finishes, the converted `.xlsm` files are uploaded as a build artifact named **XLSM-Files**, which you can download from the workflow run summary page.
 
