@@ -2,11 +2,6 @@ name: XLS to XLSM
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'input/**'
 
 permissions:
   contents: read
